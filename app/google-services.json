@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "442864969971",
+    "project_id": "the-career-council",
+    "storage_bucket": "the-career-council.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442864969971:android:455f99709637931b072f86",
+        "android_client_info": {
+          "package_name": "com.sunny.careercouncilapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442864969971-t0eagqcjhqbaic1l8pl05c17bn9fov0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcdXKQGDR1wKwywI4Hs-wR2HYnXURHJCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442864969971-t0eagqcjhqbaic1l8pl05c17bn9fov0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

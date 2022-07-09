@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rb"
+    tools:context=".Res_form">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="593dp"
+        app:layout_constraintGuide_percent="0.185" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="1dp"
+        app:layout_constraintGuide_percent="0.043" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="404dp"
+        app:layout_constraintGuide_percent="0.956" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="712dp"
+        app:layout_constraintGuide_percent="0.975" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline38"
+        app:layout_constraintEnd_toStartOf="@+id/guideline37"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvRedirectSignUp7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:gravity="center_horizontal"
+
+                android:text="Let's Build a Resume together from scratch. \nPlease fill the form given below carefully. This will appear in your final Resume."
+                android:textColor="#020935"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:id="@+id/rfname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/text_look"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:hint="Enter Your Name"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="#0B0000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/rfid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/text_look"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:hint="Enter Your Email ID"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="#000000"
+                android:textColorHint="#040000" />
+
+            <EditText
+                android:id="@+id/rfemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/text_look"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:hint="Enter Your Contact Number"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="#FC000000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/rflbay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/text_look"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:hint="Tell us a little bit about yourself"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/rfjobpos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/text_look"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:hint="Most Recent Job Position"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/rfwe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/text_look"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:hint="Tell us about your Work experience"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="#000000"
+                android:textColorHint="#020000" />
+
+            <EditText
+                android:id="@+id/rfeq1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/text_look"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:hint="Educational Qualification - 1"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/rfeq2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/text_look"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:hint="Educational Qualification - 2"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/rfeq3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/text_look"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:hint="Educational Qualification - 3"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="#050000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/rfoeq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/text_look"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:hint="Any Other Qualifications"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="#000000"
+                android:textColorHint="#020000" />
+
+            <EditText
+                android:id="@+id/rfproject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/text_look"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:hint="Notable Projects/ Accomplishments"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/rfcerti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/text_look"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:hint="Certificates/Awards you would like to mention.\n\nPlease follow this format:\nTitle:\nName of the Institute/Organization that issued the Certificate/Award:\nDate of Receiving the Certificate/Award:\n\nPlease seperate each certificate/award entry with a new line."
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/rfref"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/text_look"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:hint="What sets you apart from the rest?"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/rfint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/text_look"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:hint="Any Additional  Interests"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="#090000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/rflang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/text_look"
+                android:ems="10"
+                android:fontFamily="@font/alice"
+                android:hint="Languages Known"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+
+            <TextView
+                android:id="@+id/tvRedirectSignUp5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/alegreya_sans"
+                android:gravity="center_horizontal"
+
+                android:text="Please Select the type of Resume:"
+                android:textColor="#020935"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:id="@+id/rg">
+
+                <RadioButton
+                    android:id="@+id/cho1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Infographic Resume - 3500/- INR"
+                    android:textColor="#000000" />
+
+                <RadioButton
+                    android:id="@+id/cho2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Offline PDF/Word Resume - 3000/- INR"
+                    android:textColor="#000000" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/sbquiz"
+                android:layout_width="172dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:background="@drawable/button_look"
+                android:fontFamily="@font/alice"
+                android:gravity="center|clip_vertical|center_vertical"
+                android:text="Submit"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:backgroundTint="@null" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

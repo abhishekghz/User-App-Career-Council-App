@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/chatnav"
+        android:title="Chat with Us"
+        android:icon="@drawable/ic_baseline_chat_24"/>
+
+    <item
+        android:id="@+id/resbnav"
+        android:title="Resume Building"
+        android:icon="@drawable/ic_baseline_wysiwyg_24"/>
+
+    <item
+        android:id="@+id/jobapplinav"
+        android:title="Job Application Circulation"
+        android:icon="@drawable/ic_baseline_people_24" />
+
+    <item
+        android:id="@+id/opbnav"
+        android:title="LinkedIn Profile Upgradation"
+        android:icon="@drawable/ic_baseline_auto_graph_24"/>
+
+    <item
+        android:id="@+id/careerguinav"
+        android:title="Career Guidance"
+        android:icon="@drawable/ic_baseline_psychology_24"
+        />
+    <item
+        android:id="@+id/ctcguinav"
+        android:title="Campus to Corporate"
+        android:icon="@drawable/ic_baseline_class_24"
+        />
+    <item
+        android:id="@+id/workshopnav"
+        android:title="Workshops"
+        android:icon="@drawable/ic_baseline_miscellaneous_services_24"/>
+    <item
+        android:id="@+id/newsnav"
+        android:title="News Feed"
+        android:icon="@drawable/ic_baseline_post_add_24"
+        />
+
+    <item android:title="Logout">
+
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:title="Log Out"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                />
+        </menu>
+
+    </item>
+</menu>

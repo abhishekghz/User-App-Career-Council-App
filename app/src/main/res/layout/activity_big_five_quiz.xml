@@ -1,0 +1,1897 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup"
+    tools:context=".Big_five_quiz">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="593dp"
+        app:layout_constraintGuide_percent="0.185" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="1dp"
+        app:layout_constraintGuide_percent="0.043" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="404dp"
+        app:layout_constraintGuide_percent="0.956" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="712dp"
+        app:layout_constraintGuide_percent="0.975" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline57"
+        app:layout_constraintEnd_toStartOf="@+id/guideline56"
+        app:layout_constraintStart_toStartOf="@+id/guideline55"
+        app:layout_constraintTop_toTopOf="@+id/guideline54">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="1. Am the life of the party."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Strongly Disagree"
+
+                         />
+
+                    <RadioButton
+                        android:id="@+id/rb2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Disagree" />
+
+                    <RadioButton
+                        android:id="@+id/rb3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Neutral" />
+
+                    <RadioButton
+                        android:id="@+id/rb4"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree" />
+
+                    <RadioButton
+                        android:id="@+id/rb5"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="2. Feel little concern for others."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Strongly Disagree" />
+
+                    <RadioButton
+                        android:id="@+id/rb7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Disagree" />
+
+                    <RadioButton
+                        android:id="@+id/rb8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Neutral" />
+
+                    <RadioButton
+                        android:id="@+id/rb9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Agree" />
+
+                    <RadioButton
+                        android:id="@+id/rb10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Strongly Agree" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="3. Am always prepared"
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Disagree" />
+
+                    <RadioButton
+                        android:id="@+id/rb13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Neutral" />
+
+                    <RadioButton
+                        android:id="@+id/rb14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Agree" />
+
+                    <RadioButton
+                        android:id="@+id/rb15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Strongly Agree" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="4. Get stressed out easily."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Strongly Disagree" />
+
+                    <RadioButton
+                        android:id="@+id/rb17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Disagree" />
+
+                    <RadioButton
+                        android:id="@+id/rb18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Neutral" />
+
+                    <RadioButton
+                        android:id="@+id/rb19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Agree" />
+
+                    <RadioButton
+                        android:id="@+id/rb20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Strongly Agree" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="5. Have a rich vocabulary."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/r24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="6. Don't talk a lot."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="7. Am interested in talking to people."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="8. Leave my belongings around."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb37"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb38"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb39"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb40"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="9. Am relaxed most of the time."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb41"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb43"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Neutral" />
+
+                    <RadioButton
+                        android:id="@+id/rb44"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb45"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="10. Have difficulty understanding abstract ideas"
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb46"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb47"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb48"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb49"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="11. Feel comfortable around people"
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb52"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb53"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb54"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb55"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="12. Insult people."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb56"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb57"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb58"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb59"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"
+                        android:text="Agree" />
+
+                    <RadioButton
+                        android:id="@+id/rb60"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="13. Pay attention to details."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb61"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb62"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb63"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb64"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb65"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="14. Worry about things."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb66"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb67"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb68"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb69"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb70"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="15. Have a vivid imagination"
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb71"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb72"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb73"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb74"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb75"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="16. Keep myself in the background."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb76"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb77"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb78"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb79"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb80"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="17. Sympathize with others' feelings"
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb81"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb82"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb83"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb84"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb85"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="18. Make a mess of things."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb86"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb87"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb88"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb89"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb90"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="19. Seldom feel blue."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb91"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb92"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb93"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb94"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb95"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="20. Am not interested in abstract ideas."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb96"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb97"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb98"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb99"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb100"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="21. Start conversations."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb101"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb102"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb103"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb104"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb105"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="22. Am not interested in other people's problems."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb106"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb107"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb108"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb109"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb110"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="23. Get chores done right away."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb111"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb112"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb113"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb114"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb115"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="24. Am easily disturbed."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb116"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb117"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb118"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb119"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb120"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#C5DBEF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/q25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/alegreya_sans"
+                    android:text="25. Have excellent ideas."
+                    android:textAlignment="viewStart"
+                    android:textColor="#020935"
+                    android:textSize="18dp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline59"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline12"
+                    app:layout_constraintHorizontal_bias="0.65"
+                    app:layout_constraintStart_toStartOf="@+id/guideline11"
+                    app:layout_constraintTop_toTopOf="@+id/guideline58"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb121"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb122"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disagree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb123"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb124"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+
+                    <RadioButton
+                        android:id="@+id/rb125"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strongly Agree"
+                        android:fontFamily="@font/alice"
+                        android:textColor="#000000"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/sbquiz"
+                android:layout_width="172dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:background="@drawable/button_look"
+                android:fontFamily="@font/alice"
+                android:gravity="center|clip_vertical|center_vertical"
+                android:text="Submit"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:backgroundTint="@null" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

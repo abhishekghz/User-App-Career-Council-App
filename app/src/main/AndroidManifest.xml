@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="com.google.android.gms.wallet.api.enabled"
+    package="com.sunny.careercouncilapp"
+    android:value="true">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CareerCouncilApp">
+        <activity
+            android:name="com.sunny.careercouncilapp.Receipt"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"
+
+        />
+
+        <service
+            android:name="com.sunny.careercouncilapp.MyFirebaseMessagingService"
+            android:exported="false"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.sunny.careercouncilapp.ws"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
+        <activity
+            android:name="com.sunny.careercouncilapp.sub_job"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
+        <activity
+            android:name="com.sunny.careercouncilapp.Quiz"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+           />
+        <activity
+            android:name="com.sunny.careercouncilapp.Big_five_quiz"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
+        <activity
+            android:name="com.sunny.careercouncilapp.campustocorporate"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  />
+        <activity
+            android:name="com.sunny.careercouncilapp.Dash"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.sunny.careercouncilapp.onlineprofile"
+            android:exported="true"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan"  />
+        <activity
+            android:name="com.sunny.careercouncilapp.jobapplication"
+            android:exported="true"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan"  />
+        <activity
+            android:name="com.sunny.careercouncilapp.Res_form"
+            android:exported="true"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan"  />
+        <activity
+            android:name="com.sunny.careercouncilapp.Res_upload"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name="com.sunny.careercouncilapp.Customized_Career_Guidance"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  />
+        <activity
+            android:name="com.sunny.careercouncilapp.Workshops"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  />
+        <activity
+            android:name="com.sunny.careercouncilapp.Newsfeed"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  />
+        <activity
+            android:name="com.sunny.careercouncilapp.chat"
+            android:exported="true"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan"  />
+        <activity
+            android:name="com.sunny.careercouncilapp.ChatwithCounselors"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  />
+        <activity
+            android:name="com.sunny.careercouncilapp.Payment"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.sunny.careercouncilapp.ResumeBuilding"
+            android:exported="true"
+            android:fitsSystemWindows="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan"  />
+        <activity
+            android:name="com.sunny.careercouncilapp.ForgotPassword"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  />
+        <activity
+            android:name="com.sunny.careercouncilapp.SignupActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  />
+        <activity
+            android:name="com.sunny.careercouncilapp.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  />
+        <activity
+            android:name="com.sunny.careercouncilapp.Splashscreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+          >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
